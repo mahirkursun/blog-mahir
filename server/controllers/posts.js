@@ -17,7 +17,7 @@ export const getSinglePost = async (req, res) => {
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
-};
+}; 
  
 export const createPost = async (req, res) => {
   const newPost = new Post(req.body);
