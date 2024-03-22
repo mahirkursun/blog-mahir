@@ -11,6 +11,7 @@ const router = express.Router();
 
 //http://localhost:5000/posts
 //GET POST DELETE UPDATE PATCH
+
 router.get("/", getPosts);
 router.get("/:id", getSinglePost);
 router.post("/", createPost);
