@@ -40,21 +40,3 @@ Bu komut, projedeki mongodb verileri localhost üzerinde çalışan basit bir AP
 
 Artık projeniz yerel ortamınızda çalışıyor olmalıdır. Tarayıcınızdan http://localhost:3000 adresine giderek projeyi görüntüleyebilirsiniz.
 
-# Projeyi klonlayın
-git clone <repo-link>
-
-# Server klasörüne gidin ve gerekli paketleri yükleyin
-cd server
-npm install
-
-# Client klasörüne gidin ve gerekli paketleri yükleyin
-cd ../client
-npm install
-
-# Server klasörüne geri dönün ve API'yi başlatın
-cd ../server
-npm run start
-
-# Client klasörüne geri dönün ve proje uygulamasını başlatın
-cd ../client
-npm start
