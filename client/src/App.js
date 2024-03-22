@@ -72,7 +72,7 @@ const App = () => {
           <Toolbar >
             <StyledIconButton edge="start" color="inherit" />
             <StyledTypography variant="h6" color="secondary">
-              <a href="*/posts">Blog-Mahir</a>
+              <a href="/posts">Blog-Mahir</a>
             </StyledTypography>
             <Button color="quaternary" variant="outlined" startIcon={<PenIcon />} onClick={handleOpen}>
               Yeni Yazı
